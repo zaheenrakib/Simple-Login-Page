@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 h-screen flex items-center justify-center">
+    <div class="bg-white p-10 rounded-lg shadow-lg w-full max-w-sm">
+        <h2 class="text-2xl font-bold mb-6 text-center">LOGIN</h2>
+        <form>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Email">
+            </div>
+            <div class="mb-6">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="password">Password</label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="******************">
+            </div>
+            <div class="flex items-center justify-between mb-4">
+                <label class="inline-flex items-center">
+                    <input type="checkbox" class="form-checkbox text-pink-600">
+                    <span class="ml-2 text-gray-700">Remember me</span>
+                </label>
+            </div>
+            <div class="flex items-center justify-center">
+                <button class="bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                    LOGIN
+                </button>
+            </div>
+        </form>
+        <div class="mt-4 text-center">
+            <p>Or login with</p>
+            <div class="flex justify-center space-x-4 mt-2">
+                <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                    Facebook
+                </button>
+                <button class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                    Google
+                </button>
+            </div>
+        </div>
+        <div class="mt-4 text-center">
+            <a href="#" class="text-pink-600 hover:underline">Sign up now</a>
+        </div>
+    </div>
+</body>
+</html>
